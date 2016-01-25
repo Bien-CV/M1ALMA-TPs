@@ -1,2 +1,0 @@
-String = main.AfficherDefaut
-XML = main.AfficherXML
