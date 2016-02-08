@@ -8,6 +8,8 @@ public class Factory {
 
 	private static Factory fact;
 	private HashMap<String, String> map;
+	// a finir pour les singleton et penser a affichage par defaut
+	//private HashMap<String , IAfficheur> mapInstance;
 	
 	private Factory() {
 		map = new HashMap<String, String>();

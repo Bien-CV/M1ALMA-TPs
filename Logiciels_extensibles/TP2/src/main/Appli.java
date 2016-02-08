@@ -17,6 +17,7 @@ public class Appli {
 		if(afficheur == null) {
 			afficheur = Factory.getInstance().loadAfficher(nomAffich);
 		}
+		
 		afficheur.affiche(p);
 	}
 	
@@ -24,10 +25,11 @@ public class Appli {
 		Appli app = new Appli();
 		Personne p = new Personne();
 		p.setNom("Toto");
-		
-		System.out.print("Saisir un nom d'afficheur : ");
-		Scanner sc = new Scanner(System.in);
-		app.afficher(sc.nextLine(), p);
+		while(true){
+			System.out.print("Saisir un nom d'afficheur : ");
+			Scanner sc = new Scanner(System.in);
+			app.afficher(sc.nextLine(), p);
+		}
 		
 	}
 }
