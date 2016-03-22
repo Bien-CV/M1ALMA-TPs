@@ -9,4 +9,5 @@ Modules Semestre 1 :
 Modules Semestre 2 :
 
 * Logiciels Extensibles
+* Interface Homme-Machine
 
